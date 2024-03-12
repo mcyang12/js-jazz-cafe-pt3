@@ -74,9 +74,11 @@ class JazzCoffeeCups{
     const newType = "Mocha";
     
     // Add a new coffee type using spread operator and create an updated coffee type array
-    function updatedCoffeeTypes(IcedCoffee, ColdBrew, Affogato){
-        return `${IcedCoffee} ${ColdBrew} ${Affogato}`;
+    function updatedCoffeeTypes(New1, New2, New3){
+        return `${New1} ${New2} ${New3}`;
     }
+    updatedCoffeeTypes(...["IcedCoffee", "ColdBrew", "Affogato"]);
+
     console.log("Updated Coffee Types:", updatedCoffeeTypes);
     
     
