@@ -64,7 +64,7 @@ class JazzCoffeeCups{
         date: "April 10, 2024",
         venue: "Jazz & Java"
     };
-    let message = 'Java Jam on April 10, 2024 at Jazz & Java';
+    let message = `Java Jam on April 10, 2024 at Jazz & Java`;
     
     
     // Task 9: Use spreadrest operators on an array
@@ -74,7 +74,9 @@ class JazzCoffeeCups{
     const newType = "Mocha";
     
     // Add a new coffee type using spread operator and create an updated coffee type array
-    
+    function updatedCoffeeTypes(IcedCoffee, ColdBrew, Affogato){
+        return `${IcedCoffee} ${ColdBrew} ${Affogato}`;
+    }
     console.log("Updated Coffee Types:", updatedCoffeeTypes);
     
     
