@@ -24,7 +24,7 @@ function filterDecafLists(lists){
 
 // Task 3: Define a class for Jazz Coffee Roasters
 class JazzCoffeeRoasters{
-    constructor(name = "Ruby, Parlor, Surreal", grade = "1-100", location = "MN, KS, CA"){
+    constructor(name = "Ruby, Parlor, Surreal", grade = "A, B, C", location = "MN, KS, CA"){
         coffee.name = name;
         coffee.grade = grade;
         coffee.location = location;
